@@ -1,0 +1,132 @@
+/* Import de Fontes e etc */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url("Dia-2/style-sDay.css");
+@import url("Dia-3/style-th-Day.css");
+@import url("Dia-3/style-th-Day.css");
+@import url("Dia-4/style-fth-Day.css");
+@import url("Dia-5/style-ffth-Day.css");
+@import url("Dia-6/style-sxth-Day.css");
+@import url("Dia-7/style.svth-Day.css");
+
+/* Váriáveis de Cor e Fonte */
+:root {
+    --fonte-main: 'Inter', sans-serif;
+    --cinza-main: #667085;
+    --vermelho-main: #8E2424;
+    --preto-main: #101828;
+}
+
+/* Config Gerais */
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: var(--fonte-main);
+}
+
+/* Cabecalho da Página */
+header, nav, .container-botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header, nav {
+    justify-content: space-between;
+    margin: 0 4em;
+}
+
+.paginas-navegacao {
+    margin: .5rem;
+    text-decoration: none;
+    color: var(--cinza-main);
+}
+
+.imagem-logo {
+    margin-left: 0;
+}
+
+.texto-entrar, .ancora-cadastro {
+    margin: 1em;
+    color: var(--cinza-main);
+    text-decoration: none;
+}
+
+.botao-cadastro {
+    font-size: 18px;
+    padding: .5em .8em;
+    border-radius: 8px;
+    background-color: var(--vermelho-main);
+}
+
+.ancora-cadastro {
+    color: #ffffff;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+a:hover {
+    color: #3c9c8c;
+}
+
+
+@media screen and (max-width: 1193px) {
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: inline-block;
+    }
+
+    .paginas-mobile {
+        display: block;
+        z-index: 10;
+        padding: .5em;
+        text-decoration: none;
+        color: var(--cinza-main);
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .container-botoes {
+        display: none;
+    }
+
+    .texto-f-section {
+        margin: 1em;
+        text-align: center;
+    }
+
+    .second-section {
+        display: block;
+        text-align: center;
+    }
+
+    .third-section {
+        margin: 1em;
+    }
+
+    .imagem-banner-td-section {
+        width: 80%;
+    }
+
+    .div-vagas {
+        margin: 2em auto;
+        width: 15em;
+    }
+
+    .container-rodape {
+        display: flex;
+    }
+
+    .texto-depoimento {
+        font-size: 20px;
+        background-color: #e9e9e9;
+        border-radius: 10px;
+    }
+}
