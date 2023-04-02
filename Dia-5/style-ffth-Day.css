@@ -1,0 +1,41 @@
+/* Estilos da 4° section: seção de vagas */
+.fourth-section {
+    margin: 0 auto 3em;
+}
+
+.div-vagas {
+    margin: 2em auto;
+    width: 768px;
+}
+
+.titulo-div-vagas {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto-main);
+}
+
+.vagas-item {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin: 2em auto;
+    width: 95%;
+    padding: 1.5em 1rem;
+}
+
+.titulo-item-vagas {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-main);
+    margin: 0 auto 2em;
+}
+
+.container-flex-td-serction {
+    display: flex;
+}
+
+.vagas-tipo-e-salario {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-main);
+    padding: 1em 1em 0;
+}
