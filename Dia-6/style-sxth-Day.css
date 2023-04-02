@@ -1,0 +1,42 @@
+/* Estilos da 5° section: seção de depoimentos dos funcionários */
+.fifth-section {
+    text-align: center;
+    margin: 7em 6.5rem;
+    background-color: #C3191908;
+    border-radius: 16px;
+    padding: 1em 1.5em;
+}
+
+.informacao-span-fith-section {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho-main);
+    margin: .8em;
+    margin-top: 3.5em;
+}
+
+.texto-depoimento {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto-main);
+    margin: .5em 1em 1em;
+}
+
+.container-informacoes-pessoa {
+    margin: 1em;
+}
+
+.nome-pessoa {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto-main);
+    padding: .5rem;
+    padding-top: .9em;
+}
+
+.funcao-pessoa {
+    margin: .2em;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-main);
+}
