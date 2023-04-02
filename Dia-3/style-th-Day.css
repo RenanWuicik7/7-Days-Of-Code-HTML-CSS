@@ -1,0 +1,30 @@
+/* Estilos da Terceira Section */
+.second-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container-sc-section {
+    margin: 1em 2em;
+}
+
+.metricas-numeros {
+    font-size: 60px;
+    font-weight: 600;
+    padding: .3em;
+    color: var(--vermelho-main);
+}
+
+.titulo-metricas {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-main);
+    margin: 1em;
+}
+
+.conteudo-metricas {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-main);
+    margin: 1em;
+}

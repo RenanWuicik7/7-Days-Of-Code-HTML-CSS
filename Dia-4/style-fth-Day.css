@@ -1,0 +1,29 @@
+/* Estilos da Terceira Section */
+.third-section {
+    margin: 10em auto 2em;
+    text-align: center;
+}
+
+.informacao-span-td-section {
+    width: 8%;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho-main);
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    padding: .35em;
+    margin: 1.5em auto .2em;
+}
+
+.titulo-td-section {
+    font-size: 36px;
+    font-weight: 600;
+    margin: .37em auto .5em;
+}
+
+.texto-td-section {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-main);
+    margin: 1.7em auto 3.3em;
+}
