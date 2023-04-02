@@ -1,0 +1,25 @@
+/* Estilos da Primeira Seção */
+.first-section {
+    display: block;
+    text-align: center;
+}
+
+.informacao-span {
+    color: var(--vermelho-main);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5em;
+}
+
+.titulo-f-section {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 1em auto 1.3em;
+}
+
+.texto-f-section {
+    color: var(--cinza-main);
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto 15em;
+}
